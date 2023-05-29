@@ -1,10 +1,21 @@
 {
-  "routes": [
-    {
-      "path": "/",
-      "page": "index",
-      "routeType": "page",
-      "layout": "main"
-    }
-  ]
+    "routes": [
+        {
+            "path": "/",
+            "page": "index",
+            "routeType": "page",
+            "layout": "index"
+        },
+        {
+            "path": "/Splash_Screen",
+            "page": "Splash_Screen",
+            "layout": "Splash_Screen"
+        },
+        {
+            "path": "/index",
+            "page": "index",
+            "routeType": "page",
+            "layout": "index"
+        }
+    ]
 }
